@@ -140,7 +140,7 @@ function showLoadingPage() {
 
     setTimeout(() => {
         showOfferPage();
-    }, 4500);
+    }, 3500);
 }
 
 function showOfferPage() {
@@ -183,5 +183,6 @@ function showOfferPage() {
 prevButton.addEventListener('click', prevQuestion);
 
 showQuestion(0);
+
 
 
